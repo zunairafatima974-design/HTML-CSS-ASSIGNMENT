@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+}
+
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+nav a:hover {
+    color: yellow;
+}
+
+
+main {
+    margin: 20px;
+}
+
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    color: navy;
+}
+
+
+input, select, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+footer a {
+    color: yellow;
+}
