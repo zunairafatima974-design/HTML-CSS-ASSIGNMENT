@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+        
+        <label for="name">Name:</label>
+        <input type="text" 
+        id="name" 
+        name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" 
+        id="email" 
+        name="email" required>
+        <br><br>
+
+        
+        <label for="password">Password:</label>
+        <input type="password" 
+        id="password" 
+        name="password" required>
+        <br><br>
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" 
+        id="date" 
+        name="date">
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" 
+        id="phone" 
+        name="phone">
+        <br><br>
+
+        <p>Gender:</p>
+        <input type="radio" 
+        id="male" 
+        name="gender" 
+        value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" 
+        id="female" 
+        name="gender" 
+        value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" 
+        id="other" 
+        name="gender" 
+        value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <p>Choose your hobbies:</p>
+        <input type="checkbox" 
+        id="reading" 
+        name="hobby" 
+        value="Reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" 
+        id="coding" 
+        name="hobby" 
+        value="Coding">
+        <label for="coding">Coding</label>
+
+        <input type="checkbox" 
+        id="music" 
+        name="hobby"
+        value="Music">
+        <label for="music">Music</label>
+        <br><br>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="">Choose a course</option>
+            <option value="CSE">B.Tech CSE</option>
+            <option value="IT">B.Tech IT</option>
+            <option value="ECE">B.Tech ECE</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message"
+                  rows="5" cols="30"
+                  placeholder="Enter your message"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
