@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.topbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+
+.bio {
+    height: 120px;
+    overflow: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid gray;
+    text-align: left;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.plus-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+}
